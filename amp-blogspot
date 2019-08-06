@@ -1,0 +1,6 @@
+Using an amp-iframe in a spesific page in amp-blogspot:
+(note: 4138102041640602954 is an ID of a page)
+
+<b:if cond='data:view.pageId == 4138102041640602954'>
+	<script async='async' custom-element='amp-iframe' src='https://cdn.ampproject.org/v0/amp-iframe-0.1.js'/>
+</b:if>
